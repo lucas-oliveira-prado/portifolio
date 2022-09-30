@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'Itim';
+    src: url('font/Itim-Regular.ttf') format('truetype');
+}
+
+#tudo{
+    position: absolute;
+    background: #353535;
+    z-index: -2;
+}
+
+* {
+    margin: 0px;
+    color: white;
+    padding: 0px;
+    font-family: 'itim', normal;
+}
+
+#cabecalho{
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    background: linear-gradient(90deg, #A701F5 0%, rgba(108, 0, 245, 0.93) 100%);
+    z-index: 1;
+}
+
+#rodapeCabecalho{
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    z-index: -1;
+    background: linear-gradient(90deg, #A701F5 0%, rgba(108, 0, 245, 0.93) 100%);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.395);
+    bottom: 0;
+    transform: skewY(-2.5deg);
+    transform-origin: 100%;
+    margin-bottom: 200px;
+}
+
+#cabecalhoCima{
+    display: flex;
+    width: 60%;
+    height: 80px;
+    margin: auto;
+}
+
+#icone{
+    height: 80px;
+    margin: auto;
+}
+
+#secoes{
+    display: flex;
+    margin: auto;
+}
+
+#secoes > a{
+    text-decoration: none;
+}
+
+#secoes > a > h2 {
+    font-weight: 50;
+    font-size: 25px;
+    line-height: 60px;
+    margin: 20px;
+    margin-top: 5px;
+}
+
+#cabecalhoCorpo{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+
+#logo{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+#saibaMais{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+}
+
+#saibaMaisButton{
+    margin: auto;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border: solid transparent;
+    border-radius: 5px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.42);
+    border-right: 3px solid rgba(0, 0, 0, 0.42);
+    width: 125px;
+    height: 35px;
+    background-color: #37326A;
+    text-align: center;
+}
+
+#saibaMaisButton > a{
+    text-decoration: none;
+}
+
+#saibaMaisButton > a > h3 {
+    color: white;
+    font-size: 20px;
+    margin: auto;
+}
+
+.boxSecao{
+    margin-top: 200x;
+    width: 100%;
+    height: 680px;
+}
+
+.subTitulo{
+    width: 100%;
+    height: 60px;
+    font-size: 200px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.subTitulo > h2{
+    font-size: 45px;
+}
+
+#conteudoSobre{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#paragrafoSobre{
+    width: 30%;
+    height: 40%;
+    margin: auto;
+    margin-right: 10%;
+    font-size: 30px;
+}
+
+#paragrafoSobre > p{
+    margin: auto;
+}
+
+#fotoSobre{
+    margin: auto;
+    margin-left: 1%;
+    background-color: rgba(0, 0, 0, 0.642);
+    border-radius: 180px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgba(14, 11, 19, 0.93);
+}
+
+#fotoSobre > img{
+    border-radius: 180px;
+}
+
+.divisao{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(90deg, #A701F5 0%, rgba(108, 0, 245, 0.93) 100%);;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#divisao{
+    position: absolute;
+    z-index: 1;
+}
+
+#divisaoInclinada{
+    position: relative;
+    z-index: -1;
+    bottom: 0;
+    transform: skewY(1deg);
+    transform-origin: 100%;
+}
+
+.projeto{
+    width: 204px;
+    height: 204px;
+    background-color: #272525;
+    margin: auto;
+    border: 2px solid rgb(31, 31, 31);
+}
+
+.projeto > h2 {
+    margin-top: 40%;
+    margin-left: 17%;
+}
+
+#conteudoPortifolio{
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+
+#marginPortifolio{
+    width: 60%;
+    height: 20px;
+}
+
+#paragrafoPortifolio{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#paragrafoPortifolio > p{
+    font-size: 30px;
+}
+
+#conteudoHabilidadesCima{
+    width: 600px;
+    display: flex;
+    margin: auto;
+}
+
+#conteudoHabilidadesBaixo{
+    width: 400px;
+    display: flex;
+    margin: auto;
+}
+
+#tecnologias{
+    width: 600px;
+    text-align: center;
+    height: 400px;
+    margin: auto;
+    margin-left: 0px;
+}
+
+.habilidade{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+#paragrafoHabilidade{
+    width: 60vh;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+
+#paragrafoHabilidade > p{
+    font-size: 25px;
+}
+
+#habilidades{
+    display: flex;
+}
+
+
+
+
+
+
+
+
