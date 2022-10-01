@@ -30,11 +30,10 @@
     position: relative;
     z-index: -1;
     background: linear-gradient(90deg, #A701F5 0%, rgba(108, 0, 245, 0.93) 100%);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.395);
-    bottom: 0;
     transform: skewY(-2.5deg);
     transform-origin: 100%;
     margin-bottom: 200px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.267);
 }
 
 #cabecalhoCima{
@@ -66,6 +65,11 @@
     margin-top: 5px;
 }
 
+#secoes > a > h2:hover {
+    color: #272525;
+    transition: all 0.3s ease-in-out;
+}
+
 #cabecalhoCorpo{
     width: 60%;
     height: 100%;
@@ -87,27 +91,26 @@
 
 #saibaMaisButton{
     margin: auto;
-    padding: 0;
     margin-top: 15px;
     margin-bottom: 5px;
-    border: solid transparent;
-    border-radius: 5px;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.42);
-    border-right: 3px solid rgba(0, 0, 0, 0.42);
-    width: 125px;
-    height: 35px;
-    background-color: #37326A;
-    text-align: center;
 }
 
 #saibaMaisButton > a{
+    border-radius: 4px;
+    display: inline-block;
+    background: #37326A;
     text-decoration: none;
+    width: 125px;
+    height: 45px;
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
 }
 
-#saibaMaisButton > a > h3 {
-    color: white;
-    font-size: 20px;
-    margin: auto;
+#saibaMaisButton > a:hover{
+    background: rgb(240, 238, 238);
+    color: #272525;
+    border: 2px solid #272525;
 }
 
 .boxSecao{
@@ -171,6 +174,7 @@
 #divisao{
     position: absolute;
     z-index: 1;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.288);
 }
 
 #divisaoInclinada{
@@ -241,10 +245,11 @@
 }
 
 #paragrafoHabilidade{
-    width: 60vh;
+    width: 50vh;
     margin: auto;
     margin-top: 20px;
-    margin-right: 0px;
+    margin-right: 10pxpx;
+    text-align: center;
 }
 
 #paragrafoHabilidade > p{
@@ -255,7 +260,41 @@
     display: flex;
 }
 
+#rodape{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(90deg, #250f30 0%, rgba(32, 13, 58, 0.93) 100%);
+    display: flex;
+}
 
+#direitos{
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(238, 238, 238);
+}
+
+#margemRodape{
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(90deg, #250f30 0%, rgba(32, 13, 58, 0.93) 100%);
+}
+
+#contatos{
+    width: 50vh;
+    height: 50px;
+    margin-left: 30px;
+}
+
+#rodapeMeio{
+    margin: auto;
+    width: 500px;
+    display: flex;
+}
+
+.imagemContatos{
+    margin: auto;
+}
 
 
 

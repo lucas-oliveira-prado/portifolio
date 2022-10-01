@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #teste{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: linear-gradient(90deg, #A701F5 0%, rgba(108, 0, 245, 0.93) 100%);
+        z-index: 1;
+    }
+
+    #teste1{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background: linear-gradient(90deg, #A701F5 0%, rgba(108, 0, 245, 0.93) 100%);
+        z-index: -1;
+        bottom: 0;
+        transform: skewY(-10deg);
+        transform-origin: 100%;
+    }
+
+
+</style>
+<body>
+    <div id="teste"></div>
+    <div id="teste1"></div>
+</body>
+</html>
